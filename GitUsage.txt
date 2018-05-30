@@ -1,0 +1,25 @@
+git init
+
+git status
+
+git add .
+
+git commit              |||||| dan doe ik met VI   eerst de i om te inserten, esc om eruit te komen, en daarna :wq
+
+git commit -am "Beschrijving waaraan jij deze commit herkent"
+
+MAAK EEN NIEUWE REPOSITORY ONLINE 
+KOPIEER
+git remote add origin https://github.com/FelixvL/demogit.git
+
+git push (zal vragen om een extra commando)
+git push --set-upstream origin master
+
+VERANDEREN, en vanaf dan
+git status
+git add .
+git commit -am "jouw tekst"
+git push
+
+
+CONSTANT HERHALEN
