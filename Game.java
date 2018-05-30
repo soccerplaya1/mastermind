@@ -40,7 +40,10 @@ class Game {
 					
 					System.out.println("Enter a number");
 					int guessedNumber = Integer.parseInt(scanner.next());
-					System.out.println(guessedNumber);} 
+					//System.out.println(guessedNumber);
+					player1.guessed(guessedNumber);
+					} 
+					
 				
 				else {
 					
@@ -59,10 +62,11 @@ class Game {
 
 class Player {
 	// Keeps track off goes and stores correct results.
-	int guessCounter;
+	int guessCounter = 0;
 	
 	void guessed (int Number) {
-		guessCounter = Number;
+		this.guessCounter ++;
+		System.out.println(this.guessCounter);
 			
 	}
 }
